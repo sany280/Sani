@@ -1,0 +1,305 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+body{
+
+
+background-color: rgba(39, 28, 28, 0.808);
+background-position: center;
+text-align: center;
+
+}
+.sani{
+
+text-align: center;
+text-decoration: none;
+color: white;
+background-color: none;
+
+}
+.sani a{
+
+    text-decoration: none;
+    color: yellow;
+}
+
+.sani img{
+    width: 300px;
+padding-top: 0;
+margin-top: 0px;
+margin-bottom: 0px;
+
+}
+
+.menu{
+
+width: 100%;
+height: 50px;
+background-color: red;
+text-align: center;
+margin: 0;
+
+}
+
+.menu ul{
+
+
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    padding-top: px;
+}
+
+.menu ul li{
+
+margin-right: 15px;
+list-style: none;
+padding: 10px;
+border-radius: 7px;
+height: 100%;
+margin-top: 4px;
+font-size: 20px;
+color: azure;
+
+}
+
+.menu ul li:hover{
+
+   background-color: gray;
+    
+    }
+
+    .menu ul li a{
+
+text-decoration: none;
+color: white;
+font-weight: bold;
+
+    }
+
+    .menu ul li:hover:nth-child(even){
+
+    background-color: green;
+    }
+
+    .menu ul li:hover:nth-child(odd){
+
+        background-color: black;
+        }
+
+
+        .title_bar{
+
+color: white;
+text-align: center;
+margin-top: 20px;
+font-size: 35px;
+text-decoration: underline;
+font-weight: bold;
+
+        }
+
+        .title_bar:hover{
+
+            color: yellow;
+
+            transform: rotatey(360deg);
+            transition: 4s;
+           
+        }
+
+.main_box{
+
+display: inline-flex;
+width: 90%;
+margin: 0 auto;
+flex-wrap: wrap;
+margin-top: 15px;
+justify-content: center;
+align-items: center;
+}
+
+.box{
+   
+    height: 315px;
+    width: 220px;
+    border-radius: 10px;
+    border: 2px solid white;
+    margin: 10px;
+    z-index: 1;
+    text-align: center;
+    overflow: hidden;
+
+}
+.box:hover{
+
+transform: rotatey(360deg);
+transition: 2s;
+
+}
+.box_head{
+   
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+    display: block;
+
+}
+.button_buy{
+    width: 100px;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+
+.button_buy:hover{
+    
+    background-color: #004b10;
+    cursor: pointer;
+   
+}
+
+.button_sell{
+    width: 100px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.button_sell:hover{
+    
+    background-color: rgba(187, 8, 8, 0.89);
+    cursor: pointer;
+   
+}
+
+.foot{
+
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+
+header{
+
+background-color: black;
+}
+
+footer{
+
+    background-color: black;
+    border-top: 4px solid red;
+    margin-top: 25px ;
+    text-align: center;
+
+
+
+}
+
+footer .foot a{
+
+text-decoration: none;
+color: yellow;
+font-weight: bolder;
+
+}
+
+footer .foot a:hover{
+
+    font-size: 25px ;
+    transition: 3s;
+}
+
+.load{
+
+    border: 12px solid gray;
+    border-radius: 50%;
+    border-top: 12px solid red;
+    width: 80px;
+    height: 80px;
+    animation: spain 2s linear infinite;
+     margin: 0 auto;
+     margin-top: 20px;
+    
+}
+
+@keyframes spain {
+
+    0%{
+        transform: rotate(0deg) ;
+    }
+
+    100%{
+
+        transform: rotate(360deg);
+    }
+    
+}
+
+
+@media screen and (max-width: 480px){
+
+
+
+
+    .main_box{
+
+        display: inline-flex;
+        width: 90%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 15px;
+        justify-content: center;
+        align-items: center;
+        }
+
+        .menu{
+
+            width: 100%;
+            height: 37px;
+            background-color: red;
+            text-align: center;
+            margin: 0;
+            font-size: 12px;
+            
+            }
+            
+            .menu ul{
+
+
+                display: inline-flex;
+                align-content: center;
+                align-items: center;
+                padding-top: 2px;
+            }
+            
+            .menu ul li{
+            
+            margin-right: 15px;
+            list-style: none;
+            padding: 5px;
+            border-radius: 7px;
+            height: 100%;
+             font-size: 12px;
+            color: azure;
+            
+            }
+
+
+
+
+}
